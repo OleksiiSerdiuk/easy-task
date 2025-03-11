@@ -83,8 +83,8 @@ const report = ref(reportStore.report || null)
 const progress = ref(0)
 
 const goBack = () => {
-  reportStore.resetReport() // Clear store data
-  router.push('/') // Redirect to home page
+  reportStore.resetReport()
+  router.push('/')
 }
 
 onMounted(() => {
