@@ -7,4 +7,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
   plugins: ['~/plugins/vuetify'],
+  modules: [
+    '@pinia/nuxt',
+  ]
 })
